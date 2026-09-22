@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import ClientVideoFrame from "./clientVideoFrame";
 // import data
 import { workSampleData } from "../lib/work-samples";
-console.log("workSampleData in WorkGallery:", workSampleData);
+// console.log("workSampleData in WorkGallery:", workSampleData);
 // import icons
 import { IoCloseCircleOutline } from "react-icons/io5";
 
