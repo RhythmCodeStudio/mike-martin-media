@@ -58,7 +58,7 @@ export default function BlogPostGallery({ number_of_posts, priorityFirstImage = 
                 className={`btn mx-4 text-lg ${
                   currentPage === i + 1
                     ? "w-10 h-10 rounded-full bg-black text-white"
-                    : ""
+                    : "cursor-pointer md:hover:scale-110"
                 }`}
                 onClick={() => handlePageChange(i + 1)}>
                 {i + 1}
